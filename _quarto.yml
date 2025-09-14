@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Shoon's Data Science Portfolio"
@@ -7,14 +8,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-
-format:
-  html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
-    toc: true
-
+      - href: about.qmd
+        text: About
 
